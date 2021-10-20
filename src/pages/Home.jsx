@@ -1,7 +1,6 @@
 import React from 'react'
 
-const App = () => {
-
+const Home = () => {
     return(
         <div>
             <h1>React Site under construction</h1>
@@ -11,4 +10,4 @@ const App = () => {
     );
 }
 
-export default App;
+export default Home;
