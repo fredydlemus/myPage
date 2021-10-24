@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { BrowserRouter, Switch, Route, HashRouter } from 'react-router-dom';
 import Layout from '../containers/Layout';
 import Contact from '../pages/Contact';
 import Home from '../pages/Home';
@@ -10,7 +10,7 @@ import '../styles/global.scss';
 const App = () => {
 
     return(
-        <BrowserRouter>
+        <HashRouter>
             <Layout>
                 <Switch>
                     <Route exact path="/" component={Home}/>
@@ -19,7 +19,7 @@ const App = () => {
                     <Route component={NotFound} />
                 </Switch>
             </Layout>
-        </BrowserRouter>
+        </HashRouter>
     );
 }
 
