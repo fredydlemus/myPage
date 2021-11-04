@@ -5,4 +5,55 @@
     height: 100vh;
     width: 100%;
     flex-direction: column;
+    height: 100vh;
+    .Hero-wrapper{
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--skyblue);
+        border-radius: 20px;
+        width: 90%;
+        height: 50%;
+        max-width: 1000px;
+        max-height: 336px;
+        box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
+        
+        
+        .Hero-info{
+            
+            width: 50%;
+            padding: 20px;
+            h1{
+                display: inline;
+                font-size: 42px;
+                font-weight: bolder;
+                
+            }
+            p{
+                margin:10px 0 10px 0;
+                color: var(--white-gray);
+                a{
+                    color: var(--white-gray);
+                }
+            }
+        }
+        .Hero-photo{
+            width: 50%;
+        }
+        .Hero-social-media{
+            display: flex;
+        }
+    }
+    .Hero-photo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 50%;
+        height: 90%;
+        img{
+            width: 300px;
+            height: 300px;
+            border-radius: 20px;
+        }
+    }
 }

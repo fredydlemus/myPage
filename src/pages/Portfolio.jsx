@@ -2,13 +2,13 @@ import React from 'react'
 import InConstructionMessage from '../components/InConstructionMessage';
 import '../styles/Projects.scss';
 
-const Projects = () =>{
+const Portfolio = () =>{
     return(
         <section className="Projects">
-            <h2>Projects</h2>
+            <h2>Portfolio</h2>
             <InConstructionMessage />
         </section>
     );
 }
 
-export default Projects;
+export default Portfolio;
