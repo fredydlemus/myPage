@@ -25,9 +25,10 @@
                 margin-bottom: 10px;
             }
             p{
+                color: var(--white-gray);
                 margin-bottom: 10px;
                 a{
-                    color: white;
+                    color: inherit;
                     
                 }
             }
@@ -46,6 +47,29 @@
                 width: 90%;
                 border-radius: 50%;
                 
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        .Hero-wrapper{
+            max-width: 470px;
+            height: 70%;
+            padding: 30px;
+            
+            .Hero-info{
+                h1{
+                    font-size: 52px;
+                }
+                h2{
+                    font-size: 38px;
+                }
+                p{
+                    font-size: 28px;
+                }
+            }
+            .Hero-photo{
+                width: 275px;
+                height: 275px;
             }
         }
     }
