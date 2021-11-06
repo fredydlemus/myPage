@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import '../styles/Header.scss';
-
 import { MdMenu } from "react-icons/md";
 
 
@@ -15,9 +14,11 @@ const Header = () => {
                 
             </div>
             <MdMenu
+                className="MenuIcon"
                 size='25px'
             />
-            {/* <nav className='Header_navbar'>
+            {
+                <nav className='Header_navbar'>
                 <ul>
                     <li>|</li>
                     <li>
@@ -30,7 +31,8 @@ const Header = () => {
                         <Link to="/contact">Contact</Link>
                     </li>
                 </ul>
-            </nav> */}
+            </nav>
+            }
         </nav>
     );
 }
