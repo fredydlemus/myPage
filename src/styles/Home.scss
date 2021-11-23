@@ -1,6 +1,6 @@
 .Home {
   width: 100%;
-  height: calc(100vh - 44px);
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,6 +34,13 @@
       .Hero-social-media {
         display: flex;
       }
+    }
+    .rocket {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid gray;
+      padding: 20px;
     }
   }
   @media screen and (min-width: 768px) {

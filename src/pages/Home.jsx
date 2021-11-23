@@ -3,7 +3,7 @@ import '../styles/Home.scss';
 import InConstructionMessage from '../components/InConstructionMessage';
 import SocialButton from '../components/SocialButton';
 import Photo from '../assets/me2021.jpg';
-
+import {IoIosRocket} from 'react-icons/io';
 import {AiFillTwitterCircle, AiFillGithub, AiFillLinkedin, AiFillInstagram} from 'react-icons/ai';
 import fredy from '../data/personalInformation';
 
@@ -38,7 +38,9 @@ const Home = () => {
                         />
                     </section>
                 </section>
-                
+                <div className='rocket'>
+                    <IoIosRocket size='44px'/>
+                </div>
             </div>
         </section>
     );
