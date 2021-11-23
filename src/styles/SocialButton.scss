@@ -1,10 +1,22 @@
-.SocialButton{
-    width: 34px;
-    height: 34px;
-    border-radius: 50%;
-    border: 2px solid var(--skyblue);
-    margin: 5px;
-    background-color: var(--gray);
+.SocialButton {
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: none;
+  margin: 5px;
+  background-color: var(--gray);
+  color: var(--skyblue);
+  cursor: pointer;
+  a {
     color: var(--skyblue);
-    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    svg {
+      width: 100%;
+      height: 100%;
+    }
+  }
 }

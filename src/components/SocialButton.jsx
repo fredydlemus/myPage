@@ -1,10 +1,13 @@
 import React from 'react';
 import '../styles/SocialButton.scss'
 
-const SocialButton = () =>{
+const SocialButton = ({icon, link}) =>{
     return(
-        <button className='SocialButton'>  
-            <span>+</span>
+        <button className='SocialButton'>
+            <a href={link} target='_blank'>
+                {icon}    
+            </a>  
+            
         </button>
     );
 }
