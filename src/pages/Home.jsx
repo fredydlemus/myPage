@@ -38,9 +38,6 @@ const Home = () => {
                         />
                     </section>
                 </section>
-                <div className='Hero-photo'>
-                    <img  src={Photo} width='300' alt="Fredy's photo" />
-                </div>
                 
             </div>
         </section>

@@ -26,26 +26,13 @@
       p {
         color: var(--white-gray);
         margin-bottom: 10px;
+        font-size: 20px;
         a {
           color: inherit;
         }
       }
       .Hero-social-media {
         display: flex;
-      }
-    }
-    .Hero-photo {
-      width: 175px;
-      height: 175px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid var(--skyblue);
-      border-radius: 50%;
-      img {
-        width: 90%;
-        border-radius: 50%;
       }
     }
   }

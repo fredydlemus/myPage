@@ -14,10 +14,13 @@ const Header = () => {
                 </Link>
                 
             </div>
-            <MdMenu
-                className="MenuIcon"
-                size='25px'
-            />
+            <div className='MenuIcon'>
+                <MdMenu
+                   color='black'
+                    size='25px'
+                />
+            </div>
+            
             {
                 <nav className='Header_navbar'>
                 <ul>
