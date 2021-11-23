@@ -17,7 +17,7 @@ const Header = () => {
             <div className='MenuIcon'>
                 <MdMenu
                    color='black'
-                    size='25px'
+                    size='35px'
                 />
             </div>
             
