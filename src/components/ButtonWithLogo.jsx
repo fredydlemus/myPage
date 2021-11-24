@@ -1,9 +1,9 @@
 import React from 'react';
-import '../styles/SocialButton.scss'
+import '../styles/ButtonWithLogo.scss'
 
-const SocialButton = ({icon, link}) =>{
+const ButtonWithLogo = ({icon, link}) =>{
     return(
-        <button className='SocialButton'>
+        <button className='ButtonWithLogo'>
             <a href={link} target='_blank'>
                 {icon}    
             </a>  
@@ -12,4 +12,4 @@ const SocialButton = ({icon, link}) =>{
     );
 }
 
-export default SocialButton;
+export default ButtonWithLogo;

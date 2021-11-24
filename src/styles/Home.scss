@@ -5,44 +5,6 @@
   justify-content: center;
   align-items: center;
 
-  .Hero-wrapper {
-    display: flex;
-    flex-direction: column;
-    padding: 10px 20px 10px 20px;
-    box-shadow: 0 8px 32px 0 rgb(0 0 0 / 37%);
-    border-radius: 20px;
-    width: 85%;
-    height: fit-content;
-    max-height: 90%;
-    // max-width: 300px;
-    gap: 10px;
-    .Hero-info {
-      h1 {
-        font-size: 42px;
-      }
-      h2 {
-        margin-bottom: 10px;
-      }
-      p {
-        color: var(--white-gray);
-        margin-bottom: 10px;
-        font-size: 20px;
-        a {
-          color: inherit;
-        }
-      }
-      .Hero-social-media {
-        display: flex;
-      }
-    }
-    .rocket {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid gray;
-      padding: 20px;
-    }
-  }
   @media screen and (min-width: 768px) {
     .Hero-wrapper {
       max-width: 470px;

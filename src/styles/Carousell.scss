@@ -1,0 +1,9 @@
+.Carousell {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  scroll-snap-type: x mandatory;
+  height: 100vh;
+  padding-left: 30px;
+  gap: 20px;
+}

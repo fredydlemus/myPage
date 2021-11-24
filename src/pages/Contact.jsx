@@ -1,5 +1,5 @@
 import React from 'react'
-import InConstructionMessage from '../components/InConstructionMessage';
+
 import '../styles/Contact.scss'
 
 const Contact = () =>{
